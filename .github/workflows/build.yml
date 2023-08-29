@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         include:
-        - platform: linux/arm64
+        - platform: linux/arm/v7
           arch: armv7h
           image: ghcr.io/fwcd/archlinuxarm-docker
 
